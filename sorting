@@ -1,0 +1,62 @@
+// bubble sort
+// #include <stdio.h>
+// #include<math.h>
+// int main(){
+//    int ar[]={3,2,1,5,4,7,9,8,6,0};
+//    int len=10;
+//    for (int k=0;k<len;k++){
+//     for(int i=0;i<len-1;i++){
+//        if (ar[i]>ar[i+1]){
+//            int temp=ar[i];
+//            ar[i]=ar[i+1];
+//            ar[i+1]=temp;
+//        }
+//    }
+//    }
+//    for(int j=0;j<len;j++){
+//        printf(" %d",ar[j]);
+//    }
+// }
+
+//insertion sort
+//    #include<stdio.h>
+//     void  main(){
+//         int a[]={5,1,4,2,3};
+//         int n=5;
+//         for(int i=1;i<n;i++){
+//             int key=a[i];
+//             int j=i-1;
+//             while(j>=0 && a[j]>key){
+//                 a[j+1]=a[j];
+//                 j=j-1;
+//             }
+//             a[j+1]=key;
+//         }
+//         for(int k=0;k<n;k++){
+//             printf("%d",a[k]);
+//         }
+//     }
+
+// selection sort
+// #include<stdio.h>
+// int main(){
+//         int a[]={2,5,4,3,1};
+//         int n=5;
+//         for(int i=0;i<n-1;i++){
+//                 int pos=i;
+//                 for(int j=i+1;j<n;j++){
+//                         if(a[pos]>a[j]){
+//                                 pos=j;
+//                         }
+//                         if (pos!=i){
+//                                 int tem=a[i];
+//                                 a[i]=a[pos];
+//                                 a[pos]=tem;
+//                         }
+//                 }
+//         }
+//         for(int k=0;k<n;k++){
+//                 printf("%d\t",a[k]);
+//         }       
+// }
+
